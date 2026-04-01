@@ -204,5 +204,8 @@ registry.json
 .gitty/
 .aider*
 
-# Claude Code
-.claude/
+# Claude Code — ignore personal settings but track shared skills and commands
+.claude/settings.json
+.claude/settings.local.json
+.claude/*.json
+.claude/.recent_projects
